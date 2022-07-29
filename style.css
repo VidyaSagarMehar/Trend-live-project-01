@@ -1,0 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Orbitron:wght@400;800&family=Oswald:wght@200;700&family=Roboto:wght@100;400&display=swap');
+
+
+.logo{
+    margin-top:50px;
+    margin-left: 90px;
+    width: 110px;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 400px;
+    margin-top: -30px;
+    font-family: Orbitron;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: bold;
+}
+
+.nav-button{
+    display: flex;
+    display: inline;
+    position: fixed;
+    justify-content: flex-end;
+    margin-left: 90%;
+    margin-top: -60px;
+}
+.nav-button{
+    font-size: 20px;
+    font-weight: 500;
+    font-family:Montserrat;
+    border-radius: 10px;
+    padding-left: 20PX;
+    padding-right: 20PX;
+    padding-top: 2PX;
+    padding-bottom: 2px;
+}
+div ul li:hover{
+    border-bottom: 2px solid #000;
+}
+.search-icon{
+    display: flex;
+    display: inline;
+    position: fixed;
+    justify-content: flex-end;
+    margin-left: 87%;
+    margin-top: -60px;
+}
+
+.hero-container{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    height: 100%;
+    margin-top: 150px;
+}
+
+
+.square{
+    z-index: -1;
+}
+
+.person{
+    z-index: 1;
+    position: absolute;
+}
+.person img{
+    width: 350px;
+    height: 450px;
+    margin-top: -35px;
+}
+.square img{
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    margin-top: 200px;
+    margin-left: 150px;
+}
+
+hero-container-right{
+    display: block;
+    position: absolute;
+}
+.hero-heading{
+    display: inline;
+    text-align: center;
+    font-family: Orbitron;
+    font-size: 50px;
+    margin-left: -200px;
+
+}
+.hero-description{
+    display: block;
+    margin-left: -270px;
+    width: 800px;
+    font-family:Montserrat;
+    font-size: 20px;
+    text-align: center;
+}
+
+.globe{
+    position: absolute;
+    margin-top: -100px;
+    margin-left: 50%;
+}
+.globe img{
+    width: 70px;
+}
+.star{
+    position: absolute;
+    margin-left: 1090px;
+    margin-top: -80px;
+}
+.star img{
+    width: 50px;
+}
+
+.icons{
+    display: inline;
+    position: fixed;
+    margin-top: 13%;
+}
+.icons span{
+    padding: 10px;
+}
+.contact-heading{
+    font-family:Montserrat;
+    display: inline;
+    position: fixed;
+    margin-top: 10%;
+    margin-left: 6%;
+
+}
+.btnn{
+    position: absolute;
+    display: flex;
+    display: inline;
+}
+.button-email{
+    font-family: Orbitron;
+    font-style: bold;
+    font-size: 20px;
+    border-radius: 5px;
+    margin-top: 10%;
+
+}
+.button-join{
+    font-family: Orbitron;
+    background-color: #000;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 20px;
+}
