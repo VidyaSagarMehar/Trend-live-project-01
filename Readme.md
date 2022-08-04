@@ -10,6 +10,9 @@
 
 A project template which is focused on positioning.
 
+## Average time to complete
+#### 3 Hrs
+
 
 ## Lessons Learned
 
